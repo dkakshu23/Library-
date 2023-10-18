@@ -1,0 +1,17 @@
+.anchor{
+    text-decoration: none;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+body{
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      .sticky + .content {
+        padding-top: 60px;
+      }
+}
